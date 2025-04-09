@@ -1,0 +1,80 @@
+/*CSS DOCUMENT*/
+
+body {
+	font-family: sans-serif;
+	line-height: 1.4em;
+	color: #222;
+	background-color: #fafafa;
+	box-sizing: border-box;
+	}
+
+img {
+	width: 100%;
+	}
+
+div.container {
+	display: flex;
+	flex-wrap:wrap;
+	max-width: 60em;
+	margin: auto;
+	padding: 0em 1em; /*this affects the border line cut off as well*/
+}
+
+header {
+	flex: 1 0 100%; /*its okay to use 100% for percentage but that's it */
+	margin-top: 3em;
+
+}
+
+article {
+	flex: 2 0 25em; 
+	/*keep it long enough so that it doesn't change into a column too fast when you increase the screen size */
+	margin: 0em 1em 1em 0em;
+}
+
+aside {
+	flex: 1 0 12.5em;
+}
+
+footer {
+	flex: 1 0 100%;
+	/* margin: 0em 1em; */
+	border-top: solid 1px rgb(175,175,175);
+}
+
+
+figure {
+	margin: 0em;
+}
+
+ol {
+	padding: 0em;
+}
+
+section {
+	background-color: rgb(238,238,238);
+	margin: 0em 0em 1.5em 0em;
+	padding: 1em 1em;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(69,69,69);
+}
+
+h3 {
+	color: rgb(0,0,0);
+	margin-bottom: 0em;
+}
+p {
+	color: rgb(0,0,0);
+
+}
+
+h2 {
+	margin-top: 3em;
+}
+
+section p {
+	margin-top: 0em;
+}
