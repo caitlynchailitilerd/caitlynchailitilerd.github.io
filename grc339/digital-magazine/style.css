@@ -17,17 +17,24 @@ header {
 
 nav ul li {
 	list-style-type: none;
-    color: rgb(92, 118, 153);
-    font-weight: bold;
+    color: rgb(249, 247, 241);
+    /* font-weight: bold; */
+    font-family: pelago, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     margin: 0.5em;
 }
 
 a {
     text-decoration: none;
 }
+
 body {
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: pelago, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(64, 112, 118);
 }
 
 figure {
@@ -37,17 +44,21 @@ figure {
 }
 
 h1 {
-    width: 7em;
+    /* width: 7em; */
+    width: 12em;
     margin: 1em 0.5em;
 }
 
 h2 {
-    font-family: serif;
+    font-family: "linotype-didot", serif;
+    font-weight: 700;
+    font-style: normal; 
     font-size: 2em;
-    font-weight: bold;
-    color: rgb(92, 118, 153);
+    /* font-weight: bold; */
+    /* color:  rgb(255, 215, 195); */
+    color: rgb(223, 228, 201);
     margin-left: 0.2em;
-    padding-top: 0.1em;
+    padding: 0.1em 0 0.3em;
 }
 
         section.mainstory h2 {
@@ -66,15 +77,15 @@ h2 {
             font-size: 1.5em;
             /* margin: 0.3em; this didn't level with the top part*/
             padding-top: 0.3em;
-            border-top: solid 1px rgb(92, 118, 153);
+            border-top: solid 1px rgb(255, 215, 195);
         }
         section.tertiary-story p {
             margin: 0.2em 0.5em 2em;
         }
 
 p {
-    color: rgb(0,0,0);
-    line-height: 1.3em;
+    color: rgb(249, 247, 241);
+    line-height: 1.5em;
     margin: 0em 0.5em;
     margin: .2rem, .5rem 0;
 
@@ -82,16 +93,21 @@ p {
 
 article h2 {
     font-size: 3em;
-
+    padding-bottom: 0.5em;
 }
+
 aside {
-    background-color: rgb(204,207,251);
-    padding: 0.5em;
+    /* background-color: rgb(185, 185, 185); */
+    padding: 0 0.5em 0.5em;
 }
 
 aside h2 {
     font-size: 1.5em;
     margin-left: 0.4em;
+    color: rgb(255, 215, 195);
+    padding-top: 0.5em; /* added */
+
+
 }
     
 aside p {
@@ -103,18 +119,20 @@ aside p {
 }
 
 footer {
-    background-color: rgb(92, 118, 153);
+    background-color: rgb(249, 247, 241);
     padding:0.5em;
     box-sizing: border-box;
 }
 
 footer p {
-    color: rgb(225, 225, 225);
+    color: rgb(64, 112, 118);
 }
 
 figcaption {
+    font-family: pelago, sans-serif;
+    font-weight: 400;
     font-style: italic;
-    color: rgb(125,125,125);
+    color:rgb(223, 231, 229);
     /* margin: 0.4em 0em 1em 0.5em; fixed below*/
     margin: .2rem .5rem 1em;
 
