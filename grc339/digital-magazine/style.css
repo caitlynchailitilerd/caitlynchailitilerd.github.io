@@ -337,7 +337,7 @@ textarea {
    figcaption {
     margin: 0.2em 0em 1em 0em;
     }
-
+}
 
 @media only screen and (min-width: 60em) {
     div.home-container {
@@ -451,7 +451,70 @@ textarea {
     padding-bottom: calc(74% + 3em); /*change*/
 }
 
-
 }
 
+@media screen and (prefers-color-scheme: light) {
+
+    h1 {  
+    background-image: url("hellonihonlightlogo.svg");  
+    background-repeat: no-repeat;  
+    background-size: contain;  
+    }  
+
+    h1 img {  
+    opacity: 0;  
+    } 
+
+    body {
+            background-color: rgb(249, 247, 242);
+            /* background color */
+    }
+
+    nav ul li a:hover {
+    color: rgb(222, 121, 88);
+    /* hover state color */
+    }
+
+    nav ul li a, h2, p, div.gallery figcaption{
+    color:  rgb(64, 112, 118);
+    /* navigation tab colors*/
+    }
+
+    section.tertiary-story h2 {
+            border-top: solid 1px rgb(222, 121, 88);
+        }
+
+    aside h2 , aside p {
+        color:  rgb(222, 121, 88);
+    }
+
+    
+    footer, form {
+    background-color: rgb(64, 112, 118);
+    }
+
+    footer p, ul li label, section.personal-info h2 {
+    color: rgb(249, 247, 242);
+    }
+
+    figcaption {
+    color: rgb(157, 159, 118)
+    }
+
+    section.personal-info h3, section.contact h3 {
+    color: rgb(255, 215, 195);
+    /* in the form */
+    }
+
+    section.contact p {
+    color: rgb(249, 247, 242);
+    }
+
+textarea {
+	background: #fcfcfc;
+	border: 1px solid #e8e8e8;
+	color: #777;
+	}
 }
+
+
